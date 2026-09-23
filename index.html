@@ -1,27 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Saraiki UPOS Tagger</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saraiki UPOS Tagger demo</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    header { padding: 12px 20px; }
-    iframe { display: block; width: 100%; height: 85vh; border: 0; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Saraiki UPOS Tagger</h1>
-    <a href="https://huggingface.co/spaces/usmannawaz/Saraikiupostagger">
-      Open the demo on Hugging Face
-    </a>
-  </header>
-
-  <iframe
-    src="https://usmannawaz-saraikiupostagger.hf.space"
-    title="Saraiki UPOS Tagger demo"
-    allow="clipboard-read; clipboard-write">
-  </iframe>
+  <iframe src="https://usmannawaz-saraikiupostagger.hf.space"></iframe>
 </body>
 </html>
